@@ -1,5 +1,0 @@
-Ruasol Market v3.8.6 Compile Hotfix
-
-- BUILD_LOG(10) içindeki tek compile hatası düzeltildi.
-- MarketService.java dosyasına eksik net.minecraft.util.Hand importu geri eklendi.
-- v3.8.5 UX / satış akışı düzenlemeleri korunmuştur.

@@ -1,9 +1,0 @@
-RUASOL'S TAVERN PAZARI v3.8.2 UI ALIGNMENT HOTFIX
-
-- Sol menü sıkıştırıldı; Tablo / Rehber / OP Mührü üst üste binmesi azaltıldı.
-- Üst başlık yeniden düzenlendi: ortada RUASOL'S TAVERN, altında PAZAR, sağda Pazar Kredisi.
-- Kadim Pazar kategori butonları iki satırda yeniden hizalandı, taşma azaltıldı.
-- Arama alanı ve Ara butonu yeniden yerleştirildi.
-- Ürün Ekle ekranında gün seçimi, saat seçimi, birim seçimi ve açıklama satırları ayrıştırıldı.
-- Loncalar, Depo, Teklifler, Posta ve Rehber içerikleri aşağı çekildi; metinlerin üst kenara yapışması azaltıldı.
-- Teklifler / Depo sayfa butonları alt banda taşındı.

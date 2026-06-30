@@ -1,8 +1,0 @@
-RUASOL MARKET v3.6.4 COMPILE HOTFIX
-
-- Forge 1.16.5 Button override uyumsuzluğu düzeltildi: RTButton artık render(...) override eder.
-- MarketService içinde eksik isWholeCredit(double) helper metodu eklendi.
-- MarketService içinde eksik trimText(String,int) helper metodu eklendi.
-- Network protocol/dataVersion/build metadata 3.6.4 / 363 olarak güncellendi.
-
-Bu hotfix BUILD_LOG(7).txt içinde görünen 3 compile hatasını hedefler.

@@ -1,9 +1,0 @@
-Ruasol Market v3.5.3 Layout Safe
-
-- Kadim Pazar/arama ekranında arama kutusu ile Ucuz/Pahalı/Yeni sıralama butonlarının çakışması düzeltildi.
-- Liste başlangıç Y pozisyonları view tipine göre ayrıldı.
-- Ürün liste sayfa boyutu 5 satıra çekildi; detay/pagination çakışması engellendi.
-- Depo/teklif/posta/favori satır limitleri UI yüksekliğine göre güvenli sınırlara çekildi.
-- Header başlık/ekonomi/mesaj yazılarında taşma ve overlap riski azaltıldı.
-- Ürün ekleme ekranındaki müzayede durum yazısının Müzayede Başlat butonuyla çakışması düzeltildi.
-- İlan detayında uzun satıcı/kategori metinleri trimlendi.

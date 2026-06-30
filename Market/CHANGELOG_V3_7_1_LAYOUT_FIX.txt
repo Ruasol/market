@@ -1,8 +1,0 @@
-RUASOL'S TAVERN PAZARI v3.7.1 LAYOUT FIX
-
-- Üst başlık altındaki problemli alt satır genel menülerden kaldırıldı.
-- Tüccar Rehberi yazı alanı ve sekme düzeni yeniden yerleştirildi.
-- Rehber metinleri yeni wrapLines mantığıyla satır satır çiziliyor; üst üste binme azaltıldı.
-- Ürün Ekle ekranı yeniden bloklandı; Sabit İlan ve Açık Artırma bölümleri ayrıldı.
-- Uzun açıklamalar ayrı kutulara ve daha kısa metinlere çevrildi.
-- Seçili ürün, gün/saat/birim alanları daha güvenli boşluklarla yerleştirildi.

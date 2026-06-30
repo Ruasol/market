@@ -1,0 +1,14 @@
+V3.6.4 STATIK QA
+
+BUILD_LOG(7).txt içindeki hatalar:
+1) RuasolMarketScreen.java: renderButton override hatası
+2) MarketService.java: isWholeCredit bulunamadı
+3) MarketService.java: trimText bulunamadı
+
+Uygulanan düzeltmeler:
+- renderButton -> render override
+- isWholeCredit helper eklendi
+- trimText helper eklendi
+- sürüm/protocol/dataVersion 363 yapıldı
+
+Gerçek Forge/Gradle build bu ortamda çalıştırılamadı; Windows tarafında BUILD_MOD.bat ile doğrulanmalı.

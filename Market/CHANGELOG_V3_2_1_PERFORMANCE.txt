@@ -1,0 +1,13 @@
+Ruasol Market v3.2.1 Performance / Dupe Hardening
+
+- Tam JSON save dosya yazımı delete+rename yerine atomic move fallback sistemine alındı.
+- Gson pretty-print kaldırıldı; veri dosyası daha küçük ve daha hızlı yazılır.
+- Aktif ürün listeleri LOCKED_TRANSACTION ilanları artık oyuncuya göstermez.
+- Pazar Kredisi açık artırma tekliflerinde küsurat sessizce aşağı yuvarlanmaz; tam sayı zorunlu hale geldi.
+- NAV cooldown 140ms -> 300ms yapıldı.
+- Beğeni işlemleri WAL/disk spam üretmesin diye soft-save sistemine alındı.
+- expireListings tek kontrolde sınırsız ilan sonuçlandırmaz; max_expirations_per_check config sınırı geldi.
+- claim-all depo işlemi artık her item için ayrı save atmaz; tek batch save kullanır.
+- Depo ve teklif snapshotları sayfalı gönderilir; 100 depo iteminin tamamı tek pakete yüklenmez.
+- Aynı açık artırma için bid broadcast cooldown eklendi.
+- Confige yeni performans ayarları eklendi.

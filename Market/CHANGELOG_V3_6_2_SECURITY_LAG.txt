@@ -1,0 +1,23 @@
+RUASOL MARKET v3.6.2 SECURITY + LAG HARDENING
+
+Bu sürüm v3.6.1 üstüne yeni prestige/lonca/efsanevi/vergi/sezon sistemlerinin exploit ve yük kontrolünü sıkılaştırır.
+
+DÜZELTİLEN GÜVENLİK NOKTALARI
+- Efsanevi ilan kredi bedeli artık sadece açık artırmada değil, sabit ilanlarda da create öncesi açıkça kontrol edilir.
+- Pazar Kredisi açık artırma başlangıç fiyatı artık küsuratlı girilemez; sessiz yuvarlama engellendi.
+- Öne çıkarma işleminde save başarısız olursa kredi iade edilir ve eski featured zamanı geri alınır.
+- Prestij mührü işleminde save başarısız olursa kredi iade edilir, eski prestij/efsanevi durumu geri alınır.
+- Prestij seviyesi config ile sınırlandı: max_prestige_level.
+- Takip/favori sistemi oyuncu başı sınırlandı: max_favorites_per_player.
+- Pazar Postası oyuncu başı sınırlandı: max_notifications_per_player.
+- Bekleyen ödeme teslimi tek tıkta sınırlı işlensin diye max_payouts_processed_per_click eklendi.
+- Lonca sayısı ve lonca üye sayısı sınırlandı.
+- Bir oyuncunun aynı anda birden çok ticaret loncasına eklenmesi engellendi.
+
+LAG / YÜK DÜZENLEMELERİ
+- write_data_shards varsayılan false yapıldı. Ana data hâlâ otoriter; shardlar debug/backup gerektiğinde açılır.
+- Lonca ekranındaki aktif ilan sayımı O(lonca * ilan) yerine tek geçişli precompute mantığına alındı.
+- Bildirim/favori/payout gibi büyüyen listelere sınır getirildi.
+
+NOT
+Gerçek Forge/Gradle build bu ortamda alınamadı. BUILD_MOD.bat çalıştırıp hata varsa BUILD_LOG.txt gönder.

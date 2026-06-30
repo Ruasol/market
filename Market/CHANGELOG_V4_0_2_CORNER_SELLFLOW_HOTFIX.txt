@@ -1,0 +1,18 @@
+Ruasol Market Forge 1.16.5 — v4.0.2 Corner + Sell Flow Hotfix
+
+Bu sürümde yapılan ana düzeltmeler:
+- Panel ve iç kutulardaki köşe işaretleri tek yöne bakan ok görünümünden çıkarıldı.
+- Köşe vurguları dört köşede daha doğru çerçeve hissi verecek şekilde yeniden çizildi.
+- Buton görünümü daha premium, daha temiz ve daha az vanilla hissi verecek şekilde yeniden işlendi.
+- Rehber / OP Mührü / genel kutulardaki başlıkların sınır çizgisine çok yaklaşması azaltıldı.
+- Profilim ekranındaki kişisel alan butonları ve açıklama yazısı yeniden hizalandı.
+- Liste kartlarında Detay/Teklif butonu hizası iyileştirildi.
+- Liste kartı içindeki fiyat / süre / beğeni alanları yeniden konumlandırıldı.
+- Ticaret Loncaları ekranında başlık ve açıklama üst sınıra yapışmayacak şekilde aşağı alındı.
+- Ürün Ekle ekranı yeniden sıkıştırıldı ve tek sayfada daha okunur bir akışa çekildi.
+- Ürün Ekle ekranında ürün seçimi, adet, mod seçimi, fiyat, süre ve boost alanları yeniden düzenlendi.
+- Header yazıları (Ruasol's Tavern / Pazar / Pazar Kredisi) biraz aşağı alınarak daha dengeli hizalandı.
+
+Not:
+- Bu paket kaynak düzenlemesi odaklı hotfix pakettir.
+- Yerel build senaryosunda BUILD_MOD.bat ile derlenmesi amaçlanmıştır.

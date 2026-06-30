@@ -1,0 +1,31 @@
+Ruasol Market V3.8.5 — UX Flow Rework
+
+Bu paket kullanıcı geri bildirimlerine göre pazar arayüzünü ve ilan açma akışını yeniden düzenler.
+
+Öne çıkan düzenlemeler:
+- Üst navbar hizaları aşağı çekildi, başlık ve Pazar Kredisi daha dengeli konumlandı.
+- Global işlem geri bildirimi eklendi; başarılı/başarısız işlemler üst mesaj alanında görünür.
+- İlan listesi satırları yeniden hizalandı; ürün adı, fiyat, süre ve Detay/Teklif alanı ayrıştırıldı.
+- Ürün ekleme ekranı yeniden kurgulandı:
+  - Ürün seçimi
+  - Adet alanı
+  - Satış modu seçimi (Sabit İlan / Açık Artırma)
+  - Moda göre dinamik süre seçenekleri
+  - Boost seçenekleri (Efsanevi / Öne Çıkar / Duyuru)
+- İlan oluştururken adet desteği eklendi; sistem artık yalnızca eldeki stack ile sınırlı kalmaz, envanterdeki eşleşen ürünleri sayar.
+- Süre maliyetleri config üzerinden düzenlenebilir hale getirildi:
+  - fixed_three_day_fee
+  - fixed_five_day_fee
+  - auction_three_hour_credit_cost
+  - auction_five_hour_credit_cost
+- Boost maliyetleri genişletildi:
+  - featured_credit_cost
+  - announcement_credit_cost
+  - legendarySeal mevcut sistemde korunur
+- Öne Çıkar ve Herkese Duyuru boostları ilan açma akışına bağlandı.
+- Kurtarma / recovery terimleri Türkçeleştirildi.
+- OP Yönetim alanındaki uzun satırlar daha güvenli şekilde kutu içine sığdırıldı.
+
+Not:
+- Herkese Duyuru sistemi bu pakette global yayın mesajı üretir.
+- Profilim sekmesi için tam birleşik kullanıcı paneli ayrı bir sonraki iterasyonda daha büyük ekran akışı olarak ele alınabilir.

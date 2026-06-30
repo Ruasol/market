@@ -1,0 +1,17 @@
+V3.5 sonrası feedback:
+
+Güçlenen alanlar:
+- Pazar artık sadece ürün listeleme değil, oyuncuya bildirim veren bir ekonomi platformu haline geldi.
+- Oyuncu beğendiği/takip ettiği itemleri tekrar bulabilir.
+- Admin tarafında recovery ve ekonomi gözlem gücü arttı.
+- Data shard yazımı büyük dosya debug/analiz sürecini kolaylaştırır.
+- Transaction faz alanı, ileride gerçek crash recovery motoru için zemin oluşturur.
+
+Hâlâ geliştirilebilir alanlar:
+- Shard dosyaları şu an debug/backup amaçlıdır; primary load hâlâ ana JSON dosyasından yapılır.
+- Tam faz bazlı otomatik recovery, her işlem adımını bağımsız rollback edecek seviyeye çıkarılabilir.
+- Admin panel UI üzerinden oyuncuya kredi verme/alma ve oyuncu arama hâlâ genişletilebilir.
+- Pazar Postası daha görsel bir codex/posta ekranına dönüştürülebilir.
+- Favoriler için fiyat değişimi/son dakika uyarıları eklenebilir.
+- UI sesleri için özel ogg assetleri ve daha zarif sound event sistemi eklenebilir.
+- Büyük ekonomilerde ileride SQLite/H2 gibi embedded DB seçeneği düşünülebilir.

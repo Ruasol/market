@@ -1,0 +1,47 @@
+Ruasol Market v3.6.0 Prestige Economy
+
+Eklenen büyük sistemler:
+- Ticaret Loncaları
+  - OP komutlarıyla lonca oluşturma/silme, üye ekleme/çıkarma.
+  - /pazar içinde Loncalar sekmesi.
+  - Her lonca için "X Loncasının güzidelerine bak" özel pazar vitrini.
+  - Lonca üyelerinin ilanları lonca pazarında görünür.
+
+- Tüccar İtibarı ve Rozetler
+  - Satış, alış, müzayede zaferi, beğeni ve kazanca göre itibar hesaplanır.
+  - Rozet altyapısı eklendi: İlk Satış, 100.000 RC Ciro, Müzayede Fatihi, Altın Eller, Kadim Tüccar.
+  - Pazar Tablosu artık itibar/rozet bilgisini gösterir.
+
+- Efsanevi İlanlar
+  - Ürün eklerken Efsanevi Mühür seçeneği.
+  - Pazar Kredisi ile efsanevi ilan açma.
+  - Efsanevi ilanlar altın kart/özel vitrin görünümüyle ayrılır.
+  - Sol menüye Efsanevi sekmesi eklendi.
+
+- Prestij Harcamaları
+  - Aktif ilana Prestij Mührü basma.
+  - Pazar Kredisi ile ilan prestiji artırılır.
+  - Prestij seviyesi 3 ve üstüne çıkarsa ilan efsanevi kategoriye taşınır.
+
+- Vergi Hazinesi
+  - Kesilen satış/açık artırma vergisi Kraliyet Hazinesi sayaçlarına eklenir.
+  - RC ve Pazar Kredisi ayrı tutulur.
+
+- Sezon Arşivi / Reset
+  - OP komutuyla sezon arşivleme ve tablo reset.
+  - Sezonun ilk 10 satırı arşive alınır.
+
+Yeni komutlar:
+/pazar lonca olustur <id> <ad>
+/pazar lonca sil <id>
+/pazar lonca uyeekle <id> <oyuncu>
+/pazar lonca uyesil <id> <oyuncu>
+/pazar sezon sifirla <ad>
+
+Yeni configler:
+legendary_seal_credit_cost=30
+prestige_seal_credit_cost=5
+enable_market_events=true
+
+Not:
+Bu ortamda gerçek Forge build alınamadı. BUILD_MOD.bat ile Windows üzerinde test edilmeli.

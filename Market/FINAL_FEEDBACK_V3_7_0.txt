@@ -1,0 +1,2 @@
+Bu sürüm odaklı olarak client UI/UX tarafını profesyonelleştirmek için hazırlandı.
+Kod çekirdeği korunurken ekran akışı, bilgi hiyerarşisi ve seçili durum geri bildirimi güçlendirildi.

@@ -1,0 +1,29 @@
+Ruasol Market v3.5.3 Layout Safe QA
+
+Kontrol edilen alanlar:
+- Sol menü buton dizilimi
+- Kategori/sıralama/arama satırları
+- Liste satırları ile Detay/Teklif buton hitbox eşleşmesi
+- Pagination butonları ile liste satırlarının çakışması
+- Depo/teklif/posta satır limitleri
+- Header başlık/ekonomi/mesaj taşması
+- Ürün ekleme ekranında açık artırma durum yazıları
+- İlan detayında uzun satıcı/kategori satırı
+
+Bulunan ve düzeltilen hatalar:
+1. Arama kutusu Ucuz/Pahalı/Yeni sıralama butonlarıyla aynı satırda çakışıyordu.
+2. Liste page size 7 olduğu için son satırlar pagination butonlarıyla çakışabiliyordu.
+3. Depo/posta/payout satır sayıları panel alt butonlarıyla çakışma riski taşıyordu.
+4. Uzun başlık ve ekonomi modu header alanında taşma riski oluşturuyordu.
+5. Ürün ekleme ekranında Süre/Birim yazıları Müzayede Başlat butonuna fazla yakındı.
+
+Düzeltme sonucu:
+- Normal ürün/favori/arama listeleri 5 satır güvenli alana çekildi.
+- Arama kutusu ayrı satıra taşındı.
+- Liste başlangıç Y pozisyonu view tipine göre ayrıldı.
+- Depo/teklif/posta/payout satır limitleri panel yüksekliğine göre güvenli sınırlara çekildi.
+- Header metinleri trimlendi.
+- İlan detayındaki uzun satıcı/kategori metinleri trimlendi.
+
+Not:
+Bu QA statik layout/kod kontrolüdür. Gerçek Minecraft runtime GUI scale testi için BUILD_MOD.bat sonrası client üzerinde /pazar açılarak kontrol edilmelidir.

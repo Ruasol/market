@@ -1,0 +1,8 @@
+RUASOL MARKET v3.5.2 FINAL FIX
+
+Son kontrol turunda uygulanan düzeltmeler:
+- /pazar komut ağacı parantez/syntax hatası temizlendi; komut register yapısı daha okunabilir builder yapısına alındı.
+- settings.gradle proje adı v3.5.2 final ile uyumlu hale getirildi.
+- Build/mod/protocol/data version v3.5.2 / 352 olarak eşitlendi.
+- Kod brace/syntax kontrolü tekrar çalıştırıldı; dependency eksikleri dışında Java syntax hatası kalmadı.
+- Zip içine gerçek mod texturelarıyla oluşturulmuş UI önizleme görselleri eklendi. Bunlar AI üretimi değildir; paket assetlerinden alınmış arayüz preview renderlarıdır.

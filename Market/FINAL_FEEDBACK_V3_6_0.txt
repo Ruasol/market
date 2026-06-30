@@ -1,0 +1,24 @@
+Ruasol Market v3.6.0 Final Feedback
+
+Bu sürümle pazar sistemi artık sadece item al-sat sistemi değil, Ruasol ekonomisinin prestij katmanına dönüştü:
+- Loncalar oyuncuları topluluk ekonomisine bağlar.
+- İtibar ve rozetler satıcıları kalıcı prestij hedeflerine taşır.
+- Efsanevi ilanlar ve prestij mühürleri Pazar Kredisi için anlamlı kullanım alanı oluşturur.
+- Vergi hazinesi, kesilen vergiyi RP/ekonomi anlamına bağlar.
+- Sezon reset, pazar tablosunu sezonluk rekabet sistemine çevirir.
+
+Canlı testte özellikle bakılacaklar:
+1. OP lonca oluşturup oyuncu ekleyebiliyor mu?
+2. Loncalar sekmesinde lonca pazarı açılıyor mu?
+3. Lonca üyesinin ilanı lonca pazarında görünüyor mu?
+4. Efsanevi mühür kredi kesiyor mu ve ilan Efsanevi sekmesine düşüyor mu?
+5. Prestij mührü kredi kesiyor mu?
+6. Vergi hazinesi satıştan sonra artıyor mu?
+7. /pazar sezon sifirla komutu tabloları temizliyor mu?
+8. Pazar tablosunda itibar/rozet satırları taşmadan görünüyor mu?
+
+Kalan en üst seviye fikirler:
+- Gerçek canlı müzayede salonu ayrı ekranı.
+- Kara Pazar eventleri.
+- Item geçmişi/soy ağacı.
+- Lonca vitrin texture'larının ayrı ayrı premium çizilmesi.

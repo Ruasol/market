@@ -1,0 +1,7 @@
+RUASOL'S TAVERN PAZARI v3.8.1 BUILD DEPS HOTFIX
+
+- BUILD_LOG(9) içindeki hata kaynak koddan değil, Gradle/MCPRepo/Minecraft library çözümlemesinin timeout yemesinden sonra classpath'in eksik kalmasından kaynaklanıyordu.
+- build.gradle içine libraries.minecraft.net repository eklendi.
+- Gson, Brigadier, Authlib ve Netty explicit implementation olarak eklendi.
+- Bu, Gson/Brigadier/ByteBuf/GameProfile gibi eksik sınıf hatalarını build classpath tarafında kapatmak için yapıldı.
+- Modun UI/panel v3.8.0 premium panel düzeni korunmuştur.

@@ -1,0 +1,16 @@
+Ruasol Market V4.0.1 — Premium Polish Pass
+
+Bu sürüm, V4 gerçek redesign üstüne yapılan görsel ve hizalama polish paketidir.
+
+Düzeltmeler:
+- Butonlar vanilla hissinden uzaklaştırıldı; bronz/altın çerçeveli, gölgeli, köşe motifli premium buton çizimi eklendi.
+- Buton üstündeki yazıyı kesen çizgi mantığı kaldırıldı; dekoratif çizgiler artık köşe ve kenarlarda kalır.
+- Ana panel yüzeyine hafif RPG doku/şerit hissi eklendi.
+- İç kutular daha derin, gölgeli ve köşe süslemeli hale getirildi.
+- Kadim Pazar ve Efsanevi liste başlıkları üst çizgiye yapışmayacak şekilde aşağı alındı.
+- Kategori / sıralama / arama alanları aşağı alındı ve daha tutarlı spacing verildi.
+- İlan kartları premium kart gibi yeniden çizildi; fiyat, süre, beğeni ve Detay butonu çakışmayacak şekilde ayrıldı.
+- Profilim ekranında açıklama yazısının butonların arkasında kalması düzeltildi.
+- Rehber/Codex konu listesi yeniden hizalandı; son buton alt çerçeveye yapışmaz.
+- Ürün Ekle formunda input kutuları artık vanilla beyaz kutu yerine özel koyu/altın çerçeveli alan olarak çizilir.
+- OP Mührü yönetim işlemleri alanı genişletildi; açıklama ve buton satırları ayrıldı.

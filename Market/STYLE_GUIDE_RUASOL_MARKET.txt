@@ -1,0 +1,27 @@
+RUASOL MARKET TASARIM HAVUZU - v3.3
+
+Temel stil:
+- Dark fantasy medieval RPG
+- Koyu taş, demir, kahve ve soluk altın
+- Modern/neon değil; kadim, asil, ağırbaşlı
+- Yazılar kısa, butonlar net, paneller ayrışmış
+
+Panel kimlikleri:
+- Ana Pazar: kadim ticaret salonu
+- Müzayede: altın mühürlü rekabet salonu
+- Depo: güvenli kasa / zimmet sandığı
+- Tablo: lonca kayıt defteri
+- OP Mührü: yönetici mühür odası
+- Rehber: pazar kitabı / wiki defteri
+
+Okunabilirlik kuralları:
+- Küçük ekranda taşmaması için ana bilgi 5 sayfaya bölünür.
+- Kritik uyarılar sarı/altın tonuyla ayrılır.
+- RC ve Pazar Kredisi metinde ayrı anlatılır; Pazar Kredisi prestij birimi olarak tutulur.
+- Item/para işlemlerinde confirm modal korunur.
+
+Geliştirilebilir sonraki adımlar:
+- Kategori ikonlarını tek tek daha yüksek kalite pixel-art olarak çizmek.
+- Ürün kartları için ayrı card texture eklemek.
+- Rehber sayfasına mini ikonlu görsel adımlar eklemek.
+- OP panel için gerçek arama/işlem çözme UI eklemek.

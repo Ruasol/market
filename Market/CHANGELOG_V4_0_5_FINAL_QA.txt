@@ -1,0 +1,25 @@
+Ruasol Market v4.0.5 Final QA
+
+Bu sürüm v4.0.4 sonrası yapılan tam kontrol turunda tespit edilen tasarım ve sistem hatalarını kapatır.
+
+Düzeltmeler:
+- Profilim ekranında başlık/buton çakışması giderildi.
+- Profilim posta sayısı gerçek bildirim sayısına bağlandı.
+- Ürün Ekle ekranındaki süre açıklaması/buton çakışması kaldırıldı.
+- Ürün Ekle ana işlem butonu footer alanına alındı; form bölümleriyle çakışmaz.
+- OP Mührü yönetim işlemleri ve son kayıtlar iki ayrı kutuya ayrıldı.
+- MY_BIDS / Müzayede Tekliflerim başlık ve menü seçimi netleştirildi.
+- OFFERS / MY_OFFERS header başlıkları eklendi.
+- İlan Detayı input alanı özel koyu/altın input görünümüyle tutarlı hale getirildi.
+- Depo teslim alma ve toplu teslim işlemleri eski overstack kayıtlarına karşı parçalı teslim kullanır.
+- Rollback/iade yolu ana ele overstack koymaz; parçalı teslim/depo yolunu kullanır.
+- Pazar duyuruları için server -> client MarketAnnouncementPacket eklendi.
+- Client tarafında sol orta premium duyuru overlay sistemi eklendi.
+- Network protokolü ve dataVersion 405'e taşındı.
+- Açık artırma ücret hesapları UI ile tutarlı kaldı: 1-2 saat ücretsiz, 3/5 saat config bedeli.
+
+Statik QA:
+- Brace dengesi temiz.
+- Placeholder/ELLIPSIZATION yok.
+- Kısaltılmış kötü tablo sekmeleri yok.
+- Zip kök yapısı korunmuştur.

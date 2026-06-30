@@ -1,0 +1,28 @@
+RUASOL MARKET v3.2 - ULTIMATE CUSTOM UI HARDENING
+=================================================
+
+Bu sürüm v3.1'de tespit edilen kalan canlı-sunucu risklerini kapatmak için hazırlandı.
+
+GÜVENLİK / TRANSACTION
+- WAL açılış taraması eklendi. Şüpheli STARTED transaction grupları recovery kaydı üretir.
+- Stale LOCKED_TRANSACTION ilanları startup/admin sweep ile tekrar LISTED yapılır.
+- Kritik final save başarısızlıklarında ilan FAILED_RECOVERY state'ine alınır.
+- Depo limiti gerçekten uygulanır. Limit dolarsa item silinmez; admin recovery kuyruğuna alınır.
+- STORAGE_OVERFLOW transaction tipi eklendi.
+- Teklif kabul, ilan iptal, süresi dolan ilan ve açık artırma sonuçlarında item teslimi addItemStackToInventory dönüşüyle doğrulanır.
+- NAV packetleri de rate-limit kapsamına alındı.
+
+EKONOMİ
+- EconomyBridge.isReady() eklendi; UI ekonominin hazır/kilitli olduğunu gösterir.
+- Pazar Kredisi açık artırma teklifleri tam sayı mantığına zorlandı.
+- Configteki auction_credit_cost ve featured_credit_cost UI onay ekranlarında dinamik gösterilir.
+
+UI / UX
+- Panel, button ve icon texture seti daha süslü dark fantasy/medieval çizgiye taşındı.
+- Admin panelde Recovery Tara ve Ekonomi Test butonları eklendi.
+- Depo ekranında depo limiti ve recovery kuyruğu gösterilir.
+- Pazar tablosunda UUID kırpması yerine bilinen oyuncu adı kullanılmaya başlandı.
+- Liste ekranlarında hafif preview, detay ekranında tam NBT preview kullanılarak packet yükü düşürüldü.
+
+BİLİNEN SINIR
+- Recovery kuyruğundaki itemleri otomatik dağıtmak yerine bilinçli olarak admin incelemesine bırakır. Bu, para/item ekonomisinde yanlış otomatik iade riskini azaltır.

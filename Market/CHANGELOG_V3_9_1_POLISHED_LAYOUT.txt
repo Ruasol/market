@@ -1,0 +1,16 @@
+RUASOL MARKET v3.9.1 POLISHED LAYOUT
+
+Bu sürüm tamamen görsel hizalama / okunabilirlik / menü düzeni düzeltmesidir.
+
+- Panel 760x420 boyutuna büyütüldü.
+- Tüm panel textureları 760x420 oranına göre yeniden üretildi.
+- Header yeniden hizalandı: RUASOL'S TAVERN / PAZAR / Pazar Kredisi satırları aşağı alındı.
+- Pazar Kredisi ikonundaki bozuk tekrar eden ikon kaldırıldı; güvenli metin sembolüne geçildi.
+- Buton render sistemi texture bağımlılığından çıkarılıp manuel çizime alındı; yazı üstünü kesen çizgiler kaldırıldı.
+- Sol menü 9 ana sekmeye sabitlendi; kişisel işlemler Profilim altında tutulmaya devam ediyor.
+- Profilim yazısı butonların arkasından çıkarıldı ve alt açıklama güvenli alana taşındı.
+- Ürün ekleme ekranı 4 geniş kutuya ayrıldı: ürün/adet, hedef/fiyat, süre, boost.
+- İlan listesi satırlarında item ikonu / fiyat / süre / Detay butonu ayrıştırıldı.
+- Detay butonu artık ürün satırının içine binmeyecek şekilde sağ kolona alındı.
+- OP Mührü yazıları ve WAL/kurtarma metni kutu içinde aşağı alındı.
+- Depo/Teklif/Posta/Tablo/Rehber içerikleri yeni içerik alanına hizalandı.
